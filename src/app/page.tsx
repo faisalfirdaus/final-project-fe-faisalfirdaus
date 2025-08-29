@@ -3,7 +3,6 @@
 import HeroSection from "@/components/movie/HeroSection";
 import MovieSection from "@/components/movie/MovieSection";
 import Navbar from "@/components/Navbar";
-import Image from "next/image";
 
 export default function Home() {
   return (
