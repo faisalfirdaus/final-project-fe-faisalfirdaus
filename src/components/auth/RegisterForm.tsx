@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import CardWrapper from "./CardWrapper";
-import { Eye, EyeOff, User, Mail, Lock } from "lucide-react";
+import { Eye, EyeOff } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useAuth } from "@/providers/AuthProviders";
 import { toast } from "sonner";
