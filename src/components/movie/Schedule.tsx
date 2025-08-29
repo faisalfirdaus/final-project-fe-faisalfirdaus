@@ -243,7 +243,7 @@ const Schedule = ({ movieId }: { movieId: number | string }) => {
           </li>
         )}
 
-        {day.map((m, idx) => (
+        {day.map((m) => (
           <li key={m.id}>
             {/* Header row */}
             <div className="flex items-baseline justify-between border-b border-neutral-800 pb-3">
